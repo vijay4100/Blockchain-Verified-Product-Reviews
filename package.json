@@ -1,0 +1,16 @@
+{
+  "name": "product-review-deploy",
+  "version": "1.0.0",
+  "description": "Deployment setup for ProductReview contract using Ethers v6",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "ethers": "^6.8.1"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.0"
+  },
+  "type": "module"
+}
