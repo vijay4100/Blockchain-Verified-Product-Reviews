@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserProvider, Contract } from "ethers";
 import productReviewAbi from "./ProductReview.json";
 
-const contractAddress = "0xF51b8bfD5fFE4269A1389EcB7597aFcF307AaE3В"; // Replace me!
+const contractAddress = "0xF51b8bfD5fFE4269A1389EcB7597aFcF307AaE3В"; 
 
 const ProductReviewApp = () => {
   const [account, setAccount] = useState("");
